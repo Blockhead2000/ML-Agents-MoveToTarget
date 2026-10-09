@@ -48,7 +48,12 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-
+.vs/
+.idea/
+*.csproj
+*.sln
+/results/
+/mlagents-env/
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
