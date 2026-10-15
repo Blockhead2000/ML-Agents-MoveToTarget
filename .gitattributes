@@ -1,5 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Big binary files go to Git LFS
 *.onnx filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.blend filter=lfs diff=lfs merge=lfs -text
